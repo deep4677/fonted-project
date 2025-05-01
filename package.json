@@ -1,0 +1,26 @@
+{
+  "name": "fonted-project",
+  "version": "1.0.0",
+  "description": "This is my first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+                                      
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep4677/fonted-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deep4677/fonted-project/issues"
+  },
+  "homepage": "https://github.com/deep4677/fonted-project#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  }
+}
